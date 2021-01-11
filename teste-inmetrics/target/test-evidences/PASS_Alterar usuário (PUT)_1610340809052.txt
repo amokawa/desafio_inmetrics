@@ -1,0 +1,1 @@
+ApiRequestImpl{method='PUT', endpoint='/empregado/alterar/7950', requestSpecification=io.restassured.internal.RequestSpecificationImpl@171aa66, response=io.restassured.internal.RestAssuredResponseImpl@58739e5e}

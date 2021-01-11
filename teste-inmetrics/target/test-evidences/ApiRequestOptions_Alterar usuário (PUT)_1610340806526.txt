@@ -1,0 +1,11 @@
+ApiRequestOptions{method='PUT', endpoint='/empregado/alterar/7950', payload='{
+    "admissao": "10/01/2021",
+    "cargo": "Gerente",
+    "comissao": "9.999,99",
+    "cpf": "891.453.390-58",
+    "departamentoId": 2,
+    "nome": "Edit Tester",
+    "salario": "99.999,99",
+    "sexo": "m",
+    "tipoContratacao": "pj"
+}'}

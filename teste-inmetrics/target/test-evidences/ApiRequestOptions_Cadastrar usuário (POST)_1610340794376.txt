@@ -1,0 +1,11 @@
+ApiRequestOptions{method='POST', endpoint='/empregado/cadastrar', payload='{
+    "admissao": "10/01/2021",
+    "cargo": "QA",
+    "comissao": "9.999,99",
+    "cpf": "891.453.390-58",
+    "departamentoId": 1,
+    "nome": "Tester",
+    "salario": "15.000,00",
+    "sexo": "m",
+    "tipoContratacao": "clt"
+}'}

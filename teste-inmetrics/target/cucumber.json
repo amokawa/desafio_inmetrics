@@ -1,0 +1,1379 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-11T04:50:13.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4127000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Cadastro de usuário",
+        "description": "",
+        "id": "testes-da-página-de-login;cadastro-de-usuário",
+        "after": [
+          {
+            "result": {
+              "duration": 1356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5785000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a página \"login\" é carregada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertPageIsLoaded(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:50:24.667Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3532000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login",
+        "description": "",
+        "id": "testes-da-página-de-login;login",
+        "after": [
+          {
+            "result": {
+              "duration": 1111000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8086000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12085000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o formulário de login é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitLoginForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a página \"empregados\" é carregada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empregados\"",
+                  "offset": 9
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertPageIsLoaded(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      }
+    ],
+    "name": "testes da página de login",
+    "description": "",
+    "id": "testes-da-página-de-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/1_usuario.feature",
+    "tags": [
+      {
+        "name": "@webapp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-11T04:50:49.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3547000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Registra um funcionário",
+        "description": "",
+        "id": "testes-funcionais-da-página-de-funcionários;registra-um-funcionário;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4169000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13090000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o formulário de login é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitLoginForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1208000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário clica no link \"Novo Funcionário\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Novo Funcionário\"",
+                  "offset": 24
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.userClicksOnEmployeesPageLink(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13349000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o formulário de cadastro de funcionário é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.userFillsNewEmployeeForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NAME",
+                  "POSITION",
+                  "DOCUMENT",
+                  "SALARY",
+                  "GENDER",
+                  "TYPE",
+                  "ADMISSION"
+                ]
+              },
+              {
+                "cells": [
+                  "João",
+                  "Analista",
+                  "050.679.420-29",
+                  "1234,56",
+                  "Masculino",
+                  "CLT",
+                  "01/01/2021"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a página \"empregados\" é carregada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empregados\"",
+                  "offset": 9
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertPageIsLoaded(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "é verificado que o alerta de sucesso é exibido",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertSuccessAlertIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:51:26.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3450000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Registra um funcionário",
+        "description": "",
+        "id": "testes-funcionais-da-página-de-funcionários;registra-um-funcionário;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1081000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4245000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12844000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o formulário de login é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitLoginForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário clica no link \"Novo Funcionário\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Novo Funcionário\"",
+                  "offset": 24
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.userClicksOnEmployeesPageLink(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13837000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o formulário de cadastro de funcionário é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.userFillsNewEmployeeForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NAME",
+                  "POSITION",
+                  "DOCUMENT",
+                  "SALARY",
+                  "GENDER",
+                  "TYPE",
+                  "ADMISSION"
+                ]
+              },
+              {
+                "cells": [
+                  "Maria",
+                  "Gerente",
+                  "137.757.980-80",
+                  "2345,78",
+                  "Feminino",
+                  "PJ",
+                  "31/12/2020"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a página \"empregados\" é carregada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empregados\"",
+                  "offset": 9
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertPageIsLoaded(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "é verificado que o alerta de sucesso é exibido",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertSuccessAlertIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:52:02.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3441000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Edita um funcionário",
+        "description": "",
+        "id": "testes-funcionais-da-página-de-funcionários;edita-um-funcionário",
+        "after": [
+          {
+            "result": {
+              "duration": 1426000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4069000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14232000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o formulário de login é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitLoginForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "o usuário busca pelo funcionário chamado \"João\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"João\"",
+                  "offset": 41
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.searchEmployee(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o usuário clica no ícone \"Editar\" do primeiro resultado listado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Editar\"",
+                  "offset": 25
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.clickOnIconOfFirstEmployeeListed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13002000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o formulário de cadastro de funcionário é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.userFillsNewEmployeeForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NAME",
+                  "POSITION",
+                  "DOCUMENT",
+                  "SALARY",
+                  "GENDER",
+                  "TYPE",
+                  "ADMISSION"
+                ]
+              },
+              {
+                "cells": [
+                  "João Editado",
+                  "Analista Sr",
+                  "687.235.680-46",
+                  "2222,22",
+                  "Masculino",
+                  "CLT",
+                  "02/01/2021"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "a página \"empregados\" é carregada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empregados\"",
+                  "offset": 9
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertPageIsLoaded(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "é verificado que o alerta de sucesso é exibido",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertSuccessAlertIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:52:40.657Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3516000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.setUpWebTest()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Remover um funcionário",
+        "description": "",
+        "id": "testes-funcionais-da-página-de-funcionários;remover-um-funcionário",
+        "after": [
+          {
+            "result": {
+              "duration": 1115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.tearDownWebTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4410000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "o formulário de cadastro é enviado com os seguintes dados",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitUserRegistrationForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD",
+                  "CONFIRM_PASS"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13785000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "o formulário de login é enviado com os valores abaixo",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.submitLoginForm(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USER",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "o usuário busca pelo funcionário chamado \"João\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"João\"",
+                  "offset": 41
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.searchEmployee(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10692000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "o usuário clica no ícone \"Remover\" do primeiro resultado listado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Remover\"",
+                  "offset": 25
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.WebSteps.clickOnIconOfFirstEmployeeListed(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "é verificado que o alerta de sucesso é exibido",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.WebSteps.assertSuccessAlertIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webapp"
+          }
+        ]
+      }
+    ],
+    "name": "Testes funcionais da página de Funcionários",
+    "description": "",
+    "id": "testes-funcionais-da-página-de-funcionários",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/2_funcionarios.feature",
+    "tags": [
+      {
+        "name": "@webapp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-11T04:53:14.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setUpApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Cadastrar usuário (POST)",
+        "description": "",
+        "id": "testa-as-funcionalidades-de-empregado-controller;cadastrar-usuário-(post)",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.tearDownApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "um payload",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setPayload(java.lang.String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "line": 6,
+              "value": "{\n    \"admissao\": \"$dd_mm_yyyy\",\n    \"cargo\": \"QA\",\n    \"comissao\": \"9.999,99\",\n    \"cpf\": \"891.453.390-58\",\n    \"departamentoId\": 1,\n    \"nome\": \"Tester\",\n    \"salario\": \"15.000,00\",\n    \"sexo\": \"m\",\n    \"tipoContratacao\": \"clt\"\n}"
+            }
+          },
+          {
+            "result": {
+              "duration": 2364000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "é enviado uma requisição \"POST\" para \"/empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/empregado/cadastrar\"",
+                  "offset": 37
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.sendRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "a resposta tem status 202",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a resposta segue o schema",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseSchema(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 22,
+              "value": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"empregadoId\": {\n      \"type\": \"integer\"\n    },\n    \"nome\": {\n      \"type\": \"string\"\n     },\n    \"sexo\": {\n      \"type\": \"string\"\n    },\n    \"cpf\": {\n      \"type\": \"string\"\n    },\n    \"cargo\": {\n      \"type\": \"string\"\n    },\n    \"admissao\": {\n      \"type\": \"string\"\n    },\n    \"salario\": {\n      \"type\": \"string\"\n    },\n    \"comissao\": {\n      \"type\": \"string\"\n    },\n    \"tipoContratacao\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:53:17.098Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setUpApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Listar usuário cadastrado (GET)",
+        "description": "",
+        "id": "testa-as-funcionalidades-de-empregado-controller;listar-usuário-cadastrado-(get)",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.tearDownApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1734000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "é enviado uma requisição \"GET\" para \"/empregado/list/$empregadoId\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/empregado/list/$empregadoId\"",
+                  "offset": 36
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.sendRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "a resposta tem status 202",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "a resposta segue o schema",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseSchema(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 62,
+              "value": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"empregadoId\": {\n      \"type\": \"integer\"\n    },\n    \"nome\": {\n      \"type\": \"string\"\n     },\n    \"sexo\": {\n      \"type\": \"string\"\n    },\n    \"cpf\": {\n      \"type\": \"string\"\n    },\n    \"cargo\": {\n      \"type\": \"string\"\n    },\n    \"admissao\": {\n      \"type\": \"string\"\n    },\n    \"salario\": {\n      \"type\": \"string\"\n    },\n    \"comissao\": {\n      \"type\": \"string\"\n    },\n    \"tipoContratacao\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:53:18.841Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setUpApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "Listar todos usuários (GET)",
+        "description": "",
+        "id": "testa-as-funcionalidades-de-empregado-controller;listar-todos-usuários-(get)",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.tearDownApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6964000000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "é enviado uma requisição \"GET\" para \"/empregado/list_all\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/empregado/list_all\"",
+                  "offset": 36
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.sendRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "a resposta tem status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 715000000,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "a resposta segue o schema",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseSchema(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 102,
+              "value": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"empregadoId\": {\n        \"type\": \"integer\"\n      },\n      \"nome\": {\n        \"type\": \"string\"\n       },\n      \"sexo\": {\n        \"type\": \"string\"\n      },\n      \"cpf\": {\n        \"type\": \"string\"\n      },\n      \"cargo\": {\n        \"type\": \"string\"\n      },\n      \"admissao\": {\n        \"type\": \"string\"\n      },\n      \"salario\": {\n        \"type\": \"string\"\n      },\n      \"comissao\": {\n        \"type\": \"string\"\n      },\n      \"tipoContratacao\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-11T04:53:26.525Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setUpApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 141,
+        "name": "Alterar usuário (PUT)",
+        "description": "",
+        "id": "testa-as-funcionalidades-de-empregado-controller;alterar-usuário-(put)",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.tearDownApiTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "um payload",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setPayload(java.lang.String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "line": 143,
+              "value": "{\n    \"admissao\": \"$dd_mm_yyyy\",\n    \"cargo\": \"QA\",\n    \"comissao\": \"9.999,99\",\n    \"cpf\": \"891.453.390-58\",\n    \"departamentoId\": 1,\n    \"nome\": \"Tester\",\n    \"salario\": \"15.000,00\",\n    \"sexo\": \"m\",\n    \"tipoContratacao\": \"clt\"\n}"
+            }
+          },
+          {
+            "result": {
+              "duration": 1196000000,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "é enviado uma requisição \"POST\" para \"/empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/empregado/cadastrar\"",
+                  "offset": 37
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.sendRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "um payload",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.setPayload(java.lang.String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "line": 158,
+              "value": "{\n    \"admissao\": \"$dd_mm_yyyy\",\n    \"cargo\": \"Gerente\",\n    \"comissao\": \"9.999,99\",\n    \"cpf\": \"891.453.390-58\",\n    \"departamentoId\": 2,\n    \"nome\": \"Edit Tester\",\n    \"salario\": \"99.999,99\",\n    \"sexo\": \"m\",\n    \"tipoContratacao\": \"pj\"\n}"
+            }
+          },
+          {
+            "result": {
+              "duration": 1325000000,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "é enviado uma requisição \"PUT\" para \"/empregado/alterar/$empregadoId\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/empregado/alterar/$empregadoId\"",
+                  "offset": 36
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.sendRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "a resposta tem status 202",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "a resposta segue o schema",
+            "match": {
+              "location": "br.com.inmetrics.teste.steps.ApiSteps.assertResponseSchema(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 174,
+              "value": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"empregadoId\": {\n      \"type\": \"integer\"\n    },\n    \"nome\": {\n      \"type\": \"string\"\n     },\n    \"sexo\": {\n      \"type\": \"string\"\n    },\n    \"cpf\": {\n      \"type\": \"string\"\n    },\n    \"cargo\": {\n      \"type\": \"string\"\n    },\n    \"admissao\": {\n      \"type\": \"string\"\n    },\n    \"salario\": {\n      \"type\": \"string\"\n    },\n    \"comissao\": {\n      \"type\": \"string\"\n    },\n    \"tipoContratacao\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Testa as funcionalidades de Empregado Controller",
+    "description": "",
+    "id": "testa-as-funcionalidades-de-empregado-controller",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/3_empregado_api.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

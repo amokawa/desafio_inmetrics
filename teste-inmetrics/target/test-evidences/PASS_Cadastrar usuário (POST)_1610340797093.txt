@@ -1,0 +1,1 @@
+ApiRequestImpl{method='POST', endpoint='/empregado/cadastrar', requestSpecification=io.restassured.internal.RequestSpecificationImpl@58a3d521, response=io.restassured.internal.RestAssuredResponseImpl@14d8e132}

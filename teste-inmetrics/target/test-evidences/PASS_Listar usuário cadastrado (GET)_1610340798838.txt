@@ -1,0 +1,1 @@
+ApiRequestImpl{method='GET', endpoint='/empregado/list/7949', requestSpecification=io.restassured.internal.RequestSpecificationImpl@61d2f267, response=io.restassured.internal.RestAssuredResponseImpl@26d40c77}

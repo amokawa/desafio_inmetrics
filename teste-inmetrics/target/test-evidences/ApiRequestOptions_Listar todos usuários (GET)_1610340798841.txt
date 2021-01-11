@@ -1,0 +1,1 @@
+ApiRequestOptions{method='GET', endpoint='/empregado/list_all', payload='null'}
